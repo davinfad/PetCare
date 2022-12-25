@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormPenitipanActivity"
+    android:orientation="vertical"
+    android:background="#57A8AB">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/loginheader"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Titipkan Hewan"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:layout_margin="20dp">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="~ Silahkan Isi Form Penitipan ~"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Pemilik"/>
+        <EditText
+            android:id="@+id/nama_pemilik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/input"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat Pemilik"/>
+        <EditText
+            android:id="@+id/alamat_pemilik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/input"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No.HP Pemilik"/>
+        <EditText
+            android:id="@+id/no_hp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/input"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Hewan"/>
+        <EditText
+            android:id="@+id/nama_hewan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/input"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"/>
+        <EditText
+            android:id="@+id/jenis_kelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/input"/>
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Penitipan"/>
+        <TextView
+            android:drawableRight="@drawable/ic_date_range_black_24dp"
+            android:paddingRight="5dp"
+            android:id="@+id/tanggal_penitipan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input"
+            android:paddingLeft="5dp"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Pengambilan"/>
+        <TextView
+            android:drawableRight="@drawable/ic_date_range_black_24dp"
+            android:paddingRight="5dp"
+            android:id="@+id/tanggal_kembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/input"/>
+        <TextView
+            android:drawableLeft="@drawable/ic_info_outline_black_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data yang Anda Masukkan Tidak Boleh Kosong, dan Tidak Dapat Di Rubah"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <Button
+            android:id="@+id/addtitipan"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="Submit"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/backtohome"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="Back"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4c8f91">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#4c8f91"
+        android:padding="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Nama Pemilik :"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Pemilik"
+                    android:id="@+id/k_nama_pemilik"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Nama Hewan :"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Hewan"
+                    android:id="@+id/k_nama_hewan"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perawatan"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/kondisi"
+                android:gravity="center">
+                <TextView
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perawatan 1 :"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/perawatan_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dalam Perawatan"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/kondisi"
+                android:gravity="center">
+                <TextView
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perawatan 2 :"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/perawatan_2"
+                    android:text="Dalam Perawatan"
+                    android:background="@drawable/kondisi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/kondisi"
+                android:gravity="center">
+                <TextView
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perawatan 3 :"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/perawatan_3"
+                    android:text="Dalam Perawatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/kondisi"
+                android:gravity="center">
+                <TextView
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perawatan 4 :"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+                <TextView
+                    android:id="@+id/perawatan_4"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dalam Perawatan"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+            </RelativeLayout>
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*****"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
